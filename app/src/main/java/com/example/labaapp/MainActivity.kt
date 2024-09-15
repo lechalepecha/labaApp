@@ -24,11 +24,15 @@ class MainActivity : AppCompatActivity() {
     fun WriteMonth(view: View){
 
         val myNumberField = findViewById<EditText>(R.id.TextNumber)
-        val inputValue = myNumberField.text
+        val inputValue = myNumberField.text.toString().toInt()
 
-
-
-        Toast.makeText(this, inputValue, Toast.LENGTH_SHORT).show()
+        when(inputValue){
+            1 -> Toast.makeText(this, "Зима", Toast.LENGTH_SHORT).show()
+            2 -> Toast.makeText(this, "Весна", Toast.LENGTH_SHORT).show()
+            3-> Toast.makeText(this, "Лето", Toast.LENGTH_SHORT).show()
+            4 -> Toast.makeText(this, "Осень", Toast.LENGTH_SHORT).show()
+            else -> Toast.makeText(this, "Ошибка, время года не существует", Toast.LENGTH_SHORT).show()
+        }
     }
 
 }
