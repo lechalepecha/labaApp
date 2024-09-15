@@ -2,6 +2,7 @@ package com.example.labaapp
 
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,7 +22,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun WriteMonth(view: View){
-        Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show()
+
+        val myNumberField = findViewById<EditText>(R.id.TextNumber)
+        val inputValue = myNumberField.text
+
+        Toast.makeText(this, inputValue, Toast.LENGTH_SHORT).show()
     }
 
 }
