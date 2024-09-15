@@ -26,19 +26,19 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="334dp"
-        android:layout_height="53dp"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32">
+        app:layout_constraintVertical_bias="0.271">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="320dp"
-            android:layout_height="42dp"
-            android:hint="Введите любое число" />
+            android:layout_height="62dp"
+            android:hint="Введите любое число"
+            android:textColor="#FFFFFF" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -47,14 +47,15 @@
         android:layout_width="319dp"
         android:layout_height="50dp"
         android:background="#212D5B"
-        android:text="Button"
+        android:onClick="WriteMonth"
+        android:text="Проверить"
         android:textColorLink="#121831"
         app:cornerRadius="20px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.374" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
