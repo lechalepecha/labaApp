@@ -32,7 +32,7 @@
         android:onClick="WriteMonth"
         android:text="Выполнить код"
         android:textColorLink="#121831"
-        app:cornerRadius="20px"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.38"

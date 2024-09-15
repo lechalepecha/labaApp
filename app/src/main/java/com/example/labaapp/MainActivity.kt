@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         val myNumberField = findViewById<EditText>(R.id.TextNumber)
         val inputValue = myNumberField.text
 
+
+
         Toast.makeText(this, inputValue, Toast.LENGTH_SHORT).show()
     }
 
