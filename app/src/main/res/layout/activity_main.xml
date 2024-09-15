@@ -10,33 +10,35 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
         android:background="#00FFFFFF"
-        android:text="Введите любое число"
+        android:text="Лабораторная № 1"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="329dp"
-        android:layout_height="54dp"
+        android:layout_width="334dp"
+        android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.32">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="42dp"
-            android:hint="hint" />
+            android:hint="Введите любое число" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
