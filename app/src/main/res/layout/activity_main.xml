@@ -47,6 +47,7 @@
         android:ems="10"
         android:hint="Введите любое число"
         android:inputType="number"
+        android:maxLength="10"
         android:textColor="#FFFFFF"
         android:textColorHint="#A6A5A5"
         app:layout_constraintBottom_toTopOf="@+id/button"

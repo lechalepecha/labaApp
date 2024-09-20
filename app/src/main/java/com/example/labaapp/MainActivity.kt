@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
     fun WriteMonth(view: View){
 
         val myNumberField = findViewById<EditText>(R.id.TextNumber)
